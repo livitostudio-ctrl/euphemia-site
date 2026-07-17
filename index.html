@@ -3,188 +3,195 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Euphemia — Livito Studio</title>
+
+  <title>Euphemia — Automatismes mathématiques</title>
+
   <meta
     name="description"
-    content="Euphemia est une application d’entraînement aux automatismes mathématiques."
+    content="Euphemia est une application d’entraînement aux automatismes mathématiques, du CE2 à la Première."
   >
 
-  <style>
-    :root {
-      --turquoise: #00B8D9;
-      --text: #17202a;
-      --muted: #5f6b76;
-      --background: #f5fbfc;
-      --card: #ffffff;
-      --border: #dcecef;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--text);
-      background: var(--background);
-      line-height: 1.6;
-    }
-
-    header {
-      background: var(--card);
-      border-bottom: 1px solid var(--border);
-    }
-
-    nav {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 18px 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-    }
-
-    .brand {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--text);
-      text-decoration: none;
-    }
-
-    .links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 18px;
-    }
-
-    .links a {
-      color: var(--text);
-      text-decoration: none;
-    }
-
-    .links a:hover {
-      color: var(--turquoise);
-    }
-
-    main {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 72px 24px;
-    }
-
-    .hero {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 56px;
-      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.06);
-    }
-
-    h1 {
-      margin: 0 0 16px;
-      font-size: clamp(2.4rem, 7vw, 4.5rem);
-      line-height: 1.05;
-    }
-
-    h1 span {
-      color: var(--turquoise);
-    }
-
-    .subtitle {
-      max-width: 700px;
-      margin: 0;
-      font-size: 1.2rem;
-      color: var(--muted);
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 13px 20px;
-      border-radius: 999px;
-      background: var(--turquoise);
-      color: #ffffff;
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    section {
-      margin-top: 48px;
-    }
-
-    h2 {
-      margin-bottom: 12px;
-    }
-
-    footer {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 24px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 640px) {
-      nav {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      .hero {
-        padding: 34px 24px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="logo_4.png">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a class="brand" href="index.html">Livito Studio</a>
 
-      <div class="links">
+  <header class="site-header">
+    <nav class="navbar">
+
+      <a class="brand" href="index.html">
+        <img
+          src="logo_4.png"
+          alt="Logo Euphemia"
+          class="brand-logo"
+        >
+
+        <span class="brand-text">
+          <strong>Euphemia</strong>
+          <span>par Livito Studio</span>
+        </span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" aria-current="page">Accueil</a>
         <a href="privacy.html">Confidentialité</a>
         <a href="support.html">Assistance</a>
-        <a href="terms.html">Conditions d’utilisation</a>
+        <a href="terms.html">Conditions</a>
       </div>
+
     </nav>
   </header>
 
   <main>
-    <div class="hero">
-      <h1><span>Euphemia</span></h1>
 
-      <p class="subtitle">
-        Une application d’entraînement aux automatismes mathématiques,
-        conçue pour aider les élèves à progresser régulièrement et à leur rythme.
-      </p>
+    <section class="hero">
+      <div class="container hero-grid">
 
-      <a class="button" href="support.html">Contacter l’assistance</a>
-    </div>
+        <div>
+          <p class="eyebrow">
+            Application éducative
+          </p>
 
-    <section>
-      <h2>À propos de l’application</h2>
+          <h1>
+            Les automatismes deviennent des
+            <span>réflexes.</span>
+          </h1>
 
-      <p>
-        Euphemia propose des exercices courts et progressifs couvrant plusieurs
-        niveaux scolaires. L’application permet notamment de s’entraîner par thème,
-        de réaliser des sessions variées et de revoir ses erreurs.
-      </p>
+          <p class="hero-subtitle">
+            Euphemia accompagne les élèves dans un entraînement régulier,
+            progressif et personnalisé aux automatismes mathématiques.
+          </p>
+
+          <div class="hero-actions">
+
+            <a class="button button-primary" href="#fonctionnalites">
+              Découvrir Euphemia
+            </a>
+
+            <a class="button button-secondary" href="support.html">
+              Contacter l’assistance
+            </a>
+
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-logo-card">
+
+            <img
+              src="logo_4.png"
+              alt="Symbole epsilon d’Euphemia"
+            >
+
+          </div>
+        </div>
+
+      </div>
     </section>
 
-    <section>
-      <h2>Éditeur</h2>
+    <section class="features" id="fonctionnalites">
+      <div class="container">
 
-      <p>
-        Euphemia est éditée par Livito Studio.
-      </p>
+        <div class="section-heading">
+          <h2>
+            S’entraîner un peu chaque jour
+          </h2>
+
+          <p>
+            Des exercices courts pour progresser à son rythme,
+            consolider ses acquis et retravailler ses erreurs.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">📚</div>
+
+            <h3>Plusieurs niveaux</h3>
+
+            <p>
+              Des exercices du CE2 à la Première,
+              adaptés au niveau scolaire choisi.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🎯</div>
+
+            <h3>Défi du jour</h3>
+
+            <p>
+              Une courte série quotidienne pour entretenir
+              ses réflexes mathématiques.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">📈</div>
+
+            <h3>Suivi de progression</h3>
+
+            <p>
+              Les résultats sont enregistrés sur l’appareil
+              afin de visualiser les progrès réalisés.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">📴</div>
+
+            <h3>Fonctionnement hors ligne</h3>
+
+            <p>
+              Aucun compte n’est nécessaire et l’application
+              fonctionne sans connexion Internet.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
     </section>
+
+    <section class="about-section">
+      <div class="container">
+
+        <div class="about-card">
+          <h2>
+            Une application pensée pour apprendre régulièrement
+          </h2>
+
+          <p>
+            Euphemia propose des sessions d’entraînement variées,
+            des exercices classés par thème, un suivi des erreurs
+            et plusieurs profils locaux pour permettre à plusieurs
+            membres d’une même famille d’utiliser l’application
+            sur un seul appareil.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
-  <footer>
-    © 2026 Livito Studio — Euphemia
+  <footer class="site-footer">
+    <div class="footer-inner">
+
+      <span>
+        © 2026 Livito Studio — Euphemia
+      </span>
+
+      <div class="footer-links">
+        <a href="privacy.html">Confidentialité</a>
+        <a href="support.html">Assistance</a>
+        <a href="terms.html">Conditions d’utilisation</a>
+      </div>
+
+    </div>
   </footer>
+
 </body>
 </html>
