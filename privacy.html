@@ -2,7 +2,11 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
   <title>Politique de confidentialité — Euphemia</title>
 
@@ -11,335 +15,296 @@
     content="Politique de confidentialité de l’application Euphemia, éditée par Livito Studio."
   >
 
-  <style>
-    :root {
-      --turquoise: #00B8D9;
-      --text: #17202a;
-      --muted: #5f6b76;
-      --background: #f5fbfc;
-      --card: #ffffff;
-      --border: #dcecef;
-    }
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/euphemia-site/styles.css?v=7"
+  >
 
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--text);
-      background: var(--background);
-      line-height: 1.7;
-    }
-
-    header {
-      background: var(--card);
-      border-bottom: 1px solid var(--border);
-    }
-
-    nav {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 18px 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-    }
-
-    .brand {
-      font-size: 1.25rem;
-      font-weight: 700;
-      color: var(--text);
-      text-decoration: none;
-    }
-
-    .links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 18px;
-    }
-
-    .links a {
-      color: var(--text);
-      text-decoration: none;
-    }
-
-    .links a:hover {
-      color: var(--turquoise);
-    }
-
-    main {
-      max-width: 900px;
-      margin: 48px auto;
-      padding: 0 24px;
-    }
-
-    article {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 48px;
-      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.05);
-    }
-
-    h1 {
-      margin-top: 0;
-      font-size: clamp(2rem, 6vw, 3.4rem);
-      line-height: 1.15;
-    }
-
-    h2 {
-      margin-top: 38px;
-      color: var(--turquoise);
-    }
-
-    a {
-      color: #007f98;
-    }
-
-    .updated {
-      color: var(--muted);
-    }
-
-    .notice {
-      margin: 24px 0;
-      padding: 18px;
-      border-left: 4px solid var(--turquoise);
-      background: var(--background);
-    }
-
-    footer {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 24px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 640px) {
-      nav {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      article {
-        padding: 30px 22px;
-      }
-    }
-  </style>
+  <link
+    rel="icon"
+    type="image/png"
+    href="/euphemia-site/logo_4.png"
+  >
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a class="brand" href="index.html">Livito Studio</a>
 
-      <div class="links">
-        <a href="privacy.html">Confidentialité</a>
-        <a href="support.html">Assistance</a>
-        <a href="terms.html">Conditions d’utilisation</a>
+  <header class="site-header">
+    <nav class="navbar">
+
+      <a class="brand" href="/euphemia-site/index.html">
+
+        <img
+          class="brand-logo"
+          src="/euphemia-site/logo_4.png"
+          alt="Logo Euphemia"
+        >
+
+        <span class="brand-text">
+          <strong>Euphemia</strong>
+          <span>par Livito Studio</span>
+        </span>
+
+      </a>
+
+      <div class="nav-links">
+        <a href="/euphemia-site/index.html">Accueil</a>
+
+        <a
+          href="/euphemia-site/privacy.html"
+          aria-current="page"
+        >
+          Confidentialité
+        </a>
+
+        <a href="/euphemia-site/support.html">Assistance</a>
+        <a href="/euphemia-site/terms.html">Conditions</a>
       </div>
+
     </nav>
   </header>
 
-  <main>
-    <article>
-      <h1>Politique de confidentialité</h1>
+  <main class="page-main">
+    <div class="container">
 
-      <p class="updated">
-        Dernière mise à jour : 17 juillet 2026
-      </p>
+      <article class="content-card">
 
-      <p>
-        La présente politique décrit le fonctionnement de l’application
-        <strong>Euphemia</strong>, éditée par <strong>Livito Studio</strong>,
-        en matière de confidentialité et de protection des données.
-      </p>
+        <p class="eyebrow">Vie privée</p>
 
-      <div class="notice">
-        Euphemia fonctionne entièrement hors ligne. Livito Studio ne collecte,
-        ne reçoit et ne transmet aucune donnée personnelle ou donnée d’utilisation
-        provenant de l’application.
-      </div>
+        <h1>Politique de confidentialité</h1>
 
-      <h2>1. Données enregistrées sur l’appareil</h2>
+        <p class="updated">
+          Dernière mise à jour : 17 juillet 2026
+        </p>
 
-      <p>
-        Euphemia permet de créer un ou plusieurs profils locaux afin de suivre
-        la progression des utilisateurs.
-      </p>
+        <p>
+          La présente politique décrit le fonctionnement de l’application
+          <strong>Euphemia</strong>, éditée par
+          <strong>Livito Studio</strong>, en matière de confidentialité
+          et de protection des données.
+        </p>
 
-      <p>
-        Les informations suivantes peuvent être enregistrées directement sur
-        l’appareil :
-      </p>
+        <div class="notice">
+          <strong>Euphemia fonctionne entièrement hors ligne.</strong>
+          <br>
+          Livito Studio ne collecte, ne reçoit et ne transmet aucune donnée
+          personnelle ou donnée d’utilisation provenant de l’application.
+        </div>
 
-      <ul>
-        <li>un prénom ou un pseudonyme ;</li>
-        <li>un avatar choisi parmi les avatars proposés dans l’application ;</li>
-        <li>le niveau scolaire ;</li>
-        <li>les réponses données aux exercices ;</li>
-        <li>les résultats et statistiques de progression ;</li>
-        <li>l’historique des entraînements et des défis ;</li>
-        <li>la liste des erreurs à retravailler.</li>
-      </ul>
+        <h2>1. Données enregistrées sur l’appareil</h2>
 
-      <p>
-        Ces données sont conservées uniquement dans l’espace de stockage local
-        de l’application sur l’appareil de l’utilisateur.
-      </p>
+        <p>
+          Euphemia permet de créer un ou plusieurs profils locaux afin
+          de suivre la progression des utilisateurs.
+        </p>
 
-      <p>
-        Elles ne sont jamais envoyées à Livito Studio, à un serveur externe ou
-        à un tiers.
-      </p>
+        <p>
+          Les informations suivantes peuvent être enregistrées directement
+          sur l’appareil :
+        </p>
 
-      <h2>2. Absence de collecte et de suivi</h2>
+        <ul>
+          <li>un prénom ou un pseudonyme ;</li>
+          <li>
+            un avatar choisi parmi ceux proposés dans l’application ;
+          </li>
+          <li>le niveau scolaire ;</li>
+          <li>les réponses données aux exercices ;</li>
+          <li>les résultats et statistiques de progression ;</li>
+          <li>l’historique des entraînements et des défis ;</li>
+          <li>la liste des erreurs à retravailler.</li>
+        </ul>
 
-      <p>
-        Euphemia n’utilise aucun service d’analyse, de publicité, de mesure
-        d’audience ou de suivi des utilisateurs.
-      </p>
+        <p>
+          Ces données sont conservées uniquement dans l’espace de stockage
+          local de l’application sur l’appareil de l’utilisateur.
+        </p>
 
-      <p>
-        L’application n’utilise notamment pas :
-      </p>
+        <p>
+          Elles ne sont jamais envoyées à Livito Studio, à un serveur externe
+          ou à un tiers.
+        </p>
 
-      <ul>
-        <li>Google Analytics ou Firebase Analytics ;</li>
-        <li>Firebase Crashlytics ;</li>
-        <li>Sentry ou un autre outil de suivi des erreurs ;</li>
-        <li>un identifiant publicitaire ;</li>
-        <li>un identifiant unique de l’appareil ;</li>
-        <li>un service de géolocalisation ;</li>
-        <li>un outil publicitaire ou un réseau social tiers.</li>
-      </ul>
+        <h2>2. Absence de collecte et de suivi</h2>
 
-      <h2>3. Absence de compte en ligne</h2>
+        <p>
+          Euphemia n’utilise aucun service d’analyse, de publicité,
+          de mesure d’audience ou de suivi des utilisateurs.
+        </p>
 
-      <p>
-        Euphemia ne nécessite pas la création d’un compte en ligne.
-      </p>
+        <p>L’application n’utilise notamment pas :</p>
 
-      <p>
-        Les profils créés dans l’application sont uniquement des profils locaux.
-        Ils ne sont pas associés à une adresse e-mail, à un numéro de téléphone
-        ou à un compte Livito Studio.
-      </p>
+        <ul>
+          <li>Google Analytics ou Firebase Analytics ;</li>
+          <li>Firebase Crashlytics ;</li>
+          <li>Sentry ou un autre outil de suivi des erreurs ;</li>
+          <li>un identifiant publicitaire ;</li>
+          <li>un identifiant unique de l’appareil ;</li>
+          <li>un service de géolocalisation ;</li>
+          <li>un outil publicitaire ou un réseau social tiers.</li>
+        </ul>
 
-      <h2>4. Connexion Internet</h2>
+        <h2>3. Absence de compte en ligne</h2>
 
-      <p>
-        Le fonctionnement principal de l’application ne nécessite pas de
-        connexion Internet.
-      </p>
+        <p>
+          Euphemia ne nécessite pas la création d’un compte en ligne.
+        </p>
 
-      <p>
-        L’application peut contenir des liens vers des ressources pédagogiques
-        externes. Ces liens ne sont ouverts qu’à la demande de l’utilisateur,
-        après une action volontaire de sa part.
-      </p>
+        <p>
+          Les profils créés dans l’application sont uniquement des profils
+          locaux. Ils ne sont associés ni à une adresse e-mail, ni à un numéro
+          de téléphone, ni à un compte Livito Studio.
+        </p>
 
-      <p>
-        Lorsqu’un lien externe est ouvert, le navigateur ou le service concerné
-        peut appliquer sa propre politique de confidentialité. Livito Studio ne
-        reçoit aucune information issue de cette consultation.
-      </p>
+        <h2>4. Connexion Internet</h2>
 
-      <h2>5. Publicité et vente de données</h2>
+        <p>
+          Le fonctionnement principal de l’application ne nécessite pas
+          de connexion Internet.
+        </p>
 
-      <p>
-        Euphemia ne contient aucune publicité.
-      </p>
+        <p>
+          L’application peut contenir des liens vers des ressources
+          pédagogiques externes. Ces liens ne sont ouverts qu’à la demande
+          de l’utilisateur, après une action volontaire de sa part.
+        </p>
 
-      <p>
-        Livito Studio ne vend, ne loue et ne partage aucune donnée personnelle
-        ou donnée d’utilisation.
-      </p>
+        <p>
+          Lorsqu’un lien externe est ouvert, le navigateur ou le service
+          concerné peut appliquer sa propre politique de confidentialité.
+          Livito Studio ne reçoit aucune information issue de cette
+          consultation.
+        </p>
 
-      <h2>6. Suppression des données</h2>
+        <h2>5. Publicité et vente de données</h2>
 
-      <p>
-        L’utilisateur peut supprimer les données d’un profil en utilisant la
-        fonction de réinitialisation ou de suppression disponible dans
-        l’application.
-      </p>
+        <p>
+          Euphemia ne contient aucune publicité.
+        </p>
 
-      <p>
-        Il peut également supprimer l’ensemble des données locales :
-      </p>
+        <p>
+          Livito Studio ne vend, ne loue et ne partage aucune donnée
+          personnelle ou donnée d’utilisation.
+        </p>
 
-      <ul>
-        <li>en effaçant les données de l’application dans les réglages de son appareil ;</li>
-        <li>ou en désinstallant l’application.</li>
-      </ul>
+        <h2>6. Suppression des données</h2>
 
-      <p>
-        Comme Livito Studio ne reçoit aucune de ces données, aucune demande de
-        suppression auprès de Livito Studio n’est nécessaire pour les données
-        enregistrées localement.
-      </p>
+        <p>
+          L’utilisateur peut supprimer les données d’un profil en utilisant
+          la fonction de réinitialisation ou de suppression disponible
+          dans l’application.
+        </p>
 
-      <h2>7. Utilisation par des mineurs</h2>
+        <p>
+          Il peut également supprimer l’ensemble des données locales :
+        </p>
 
-      <p>
-        Euphemia est une application éducative susceptible d’être utilisée par
-        des enfants et des adolescents.
-      </p>
+        <ul>
+          <li>
+            en effaçant les données de l’application dans les réglages
+            de son appareil ;
+          </li>
+          <li>ou en désinstallant l’application.</li>
+        </ul>
 
-      <p>
-        L’application ne demande pas le nom complet, l’adresse postale, le numéro
-        de téléphone, la photographie, la géolocalisation ou l’adresse e-mail de
-        l’utilisateur.
-      </p>
+        <p>
+          Comme Livito Studio ne reçoit aucune de ces données, aucune demande
+          de suppression auprès de Livito Studio n’est nécessaire pour
+          les informations enregistrées localement.
+        </p>
 
-      <p>
-        Pour les utilisateurs mineurs, l’utilisation de l’application peut être
-        accompagnée par un parent, un représentant légal, un enseignant ou un
-        autre adulte responsable.
-      </p>
+        <h2>7. Utilisation par des mineurs</h2>
 
-      <h2>8. Sécurité</h2>
+        <p>
+          Euphemia est une application éducative susceptible d’être utilisée
+          par des enfants et des adolescents.
+        </p>
 
-      <p>
-        Les données sont stockées dans l’espace local réservé à l’application
-        par le système d’exploitation de l’appareil.
-      </p>
+        <p>
+          L’application ne demande pas le nom complet, l’adresse postale,
+          le numéro de téléphone, la photographie, la géolocalisation
+          ou l’adresse e-mail de l’utilisateur.
+        </p>
 
-      <p>
-        L’utilisateur reste responsable de la protection de son appareil, par
-        exemple grâce à un code de verrouillage ou à une authentification
-        biométrique.
-      </p>
+        <p>
+          Pour les utilisateurs mineurs, l’utilisation de l’application
+          peut être accompagnée par un parent, un représentant légal,
+          un enseignant ou un autre adulte responsable.
+        </p>
 
-      <h2>9. Évolution de l’application</h2>
+        <h2>8. Sécurité</h2>
 
-      <p>
-        Si Euphemia ajoute ultérieurement des fonctionnalités impliquant une
-        transmission de données, telles qu’une synchronisation en ligne, des
-        comptes utilisateurs, des sessions de classe ou des outils d’analyse,
-        cette politique sera mise à jour avant leur mise en service.
-      </p>
+        <p>
+          Les données sont stockées dans l’espace local réservé
+          à l’application par le système d’exploitation de l’appareil.
+        </p>
 
-      <h2>10. Contact</h2>
+        <p>
+          L’utilisateur reste responsable de la protection de son appareil,
+          par exemple grâce à un code de verrouillage ou à une authentification
+          biométrique.
+        </p>
 
-      <p>
-        Pour toute question concernant cette politique de confidentialité :
-      </p>
+        <h2>9. Évolution de l’application</h2>
 
-      <p>
-        <strong>Livito Studio</strong><br>
-        <a href="mailto:livito.studio@gmail.com">
-          livito.studio@gmail.com
-        </a>
-      </p>
-    </article>
+        <p>
+          Si Euphemia ajoute ultérieurement des fonctionnalités impliquant
+          une transmission de données, telles qu’une synchronisation en ligne,
+          des comptes utilisateurs, des sessions de classe ou des outils
+          d’analyse, cette politique sera mise à jour avant leur mise
+          en service.
+        </p>
+
+        <h2>10. Contact</h2>
+
+        <p>
+          Pour toute question concernant cette politique de confidentialité :
+        </p>
+
+        <p>
+          <strong>Livito Studio</strong>
+          <br>
+
+          <a href="mailto:livito.studio@gmail.com">
+            livito.studio@gmail.com
+          </a>
+        </p>
+
+      </article>
+
+    </div>
   </main>
 
-  <footer>
-    © 2026 Livito Studio — Euphemia
+  <footer class="site-footer">
+
+    <div class="footer-inner">
+
+      <span>
+        © 2026 Livito Studio — Euphemia
+      </span>
+
+      <div class="footer-links">
+        <a href="/euphemia-site/privacy.html">
+          Confidentialité
+        </a>
+
+        <a href="/euphemia-site/support.html">
+          Assistance
+        </a>
+
+        <a href="/euphemia-site/terms.html">
+          Conditions d’utilisation
+        </a>
+      </div>
+
+      <span class="footer-signature">
+        Conçu avec ❤️ pour les élèves, les enseignants et les familles.
+      </span>
+
+    </div>
+
   </footer>
+
 </body>
 </html>
