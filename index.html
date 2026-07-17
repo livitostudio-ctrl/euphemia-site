@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Euphemia — Livito Studio</title>
+  <meta
+    name="description"
+    content="Euphemia est une application d’entraînement aux automatismes mathématiques."
+  >
+
+  <style>
+    :root {
+      --turquoise: #00B8D9;
+      --text: #17202a;
+      --muted: #5f6b76;
+      --background: #f5fbfc;
+      --card: #ffffff;
+      --border: #dcecef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .links a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      color: var(--turquoise);
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 72px 24px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 56px;
+      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(2.4rem, 7vw, 4.5rem);
+      line-height: 1.05;
+    }
+
+    h1 span {
+      color: var(--turquoise);
+    }
+
+    .subtitle {
+      max-width: 700px;
+      margin: 0;
+      font-size: 1.2rem;
+      color: var(--muted);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 13px 20px;
+      border-radius: 999px;
+      background: var(--turquoise);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    section {
+      margin-top: 48px;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+    }
+
+    footer {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 640px) {
+      nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .hero {
+        padding: 34px 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="brand" href="index.html">Livito Studio</a>
+
+      <div class="links">
+        <a href="privacy.html">Confidentialité</a>
+        <a href="support.html">Assistance</a>
+        <a href="terms.html">Conditions d’utilisation</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1><span>Euphemia</span></h1>
+
+      <p class="subtitle">
+        Une application d’entraînement aux automatismes mathématiques,
+        conçue pour aider les élèves à progresser régulièrement et à leur rythme.
+      </p>
+
+      <a class="button" href="support.html">Contacter l’assistance</a>
+    </div>
+
+    <section>
+      <h2>À propos de l’application</h2>
+
+      <p>
+        Euphemia propose des exercices courts et progressifs couvrant plusieurs
+        niveaux scolaires. L’application permet notamment de s’entraîner par thème,
+        de réaliser des sessions variées et de revoir ses erreurs.
+      </p>
+    </section>
+
+    <section>
+      <h2>Éditeur</h2>
+
+      <p>
+        Euphemia est éditée par Livito Studio.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Livito Studio — Euphemia
+  </footer>
+</body>
+</html>
